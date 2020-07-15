@@ -1,5 +1,5 @@
 # **Running on local server**
-This will allow you to hook up to the db as well as mess around with the front end
+This will allow you to hook up to the db as well as mess around with the front end. 
 1. Open up a terminal and run
 	```npm install firebase-tools -g``` or
 	```curl -sL https://firebase.tools | bash``` 
@@ -12,10 +12,12 @@ This will allow you to hook up to the db as well as mess around with the front e
 *password: ILoveMeowth1!*
 
 3. To see projects run ```firebase projects:list```You should see pikaProject
-4. If you haven’t already clone the repo, and cd into it
-5. To test and run the app on a local host,  run ```firebase serve ```
+4. If you haven’t already, clone the repo, and cd into it
+5. To set the active project run ```firebase use --add pikaproject-e0b9b```
+6. To test and run the app on a local host,  run ```firebase serve```
 open up the localhost in your browser. Update the code, save it, and refresh the browser to see the change. 
 (TODO: look into hot reload), to bring the local server down, enter control-c in your terminal
+7. Register with a fake email and a password with at least 6 characters. Log into firebase console and see your newly registered user under *Authentification*
 
-**Firebase Console**
-The firebase console allows you to access and easily change the database, as well as see and manage all registered users on the app. Look up firebase console and login with the same google credentials as above. 
+## **Firebase Console**
+The firebase console allows you to access and easily change the database, as well as see and manage all registered users on the app. Look up firebase console and login with the same google credentials as above. Everyone is hooked up to the same database so be wary of making big changes
